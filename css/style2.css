@@ -1,0 +1,81 @@
+/* 
+  Author: Eren GÜMÜŞ  
+*/
+.etiket {
+	color: #F00;
+	font-weight: bold;
+}
+.kirmizi {
+	color: #F00;
+	font-weight: bold;
+}
+.stil1 {
+	font-size: x-large;
+	font-weight: bold;
+}
+
+body,h1,h2,h3,p,quote,small,ul,li,ol,label,img {
+	margin: 5;
+	padding: 0;
+	border: 0;
+} 
+body { background: url("../images/jb.gif") bottom right no-repeat fixed; font-family: Helvetica, Arial, Garuda, sans-serif; font-size: 14px; padding-bottom: 50px; }
+a, a:visited { text-decoration:underline; color:#33F}
+a:hover { text-decoration: none;
+color:#C00;
+}
+.clear { clear:both; }
+.hide { display:none; }
+.bold { font-weight: bold; }     
+h1 { margin-bottom: 33px; }
+.kutu{
+	border:#999999;
+	border-width:1;
+	border:solid;
+}
+.container { width: 980px; margin: 0 auto; padding-top: 40px; }
+.container .inner { width: 800px; margin: 0 auto; background: #FFF ; color:#333333; padding: 20px; text-shadow: 0 1px 1px #E0E0E0; -webkit-box-shadow:0px 1px 2px #757575; -moz-box-shadow:0px 1px 2px #757575; box-shadow:0px 1px 2px #757575; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; }
+.container .inner .satir { margin-bottom: 10px; padding-left: 20px; display:block; }
+.container .inner .satir .left { width: 130px; float: left; padding-top: 6px; }
+.container .inner .container .inner .satir select { width: 150px; border: 1px solid #C9C9C9; padding: 6px 8px; font-size: 11px; font-family: Arial, Helvetica, sans-serif; color: #797979; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; } 
+.container .inner .satir input { border: 1px solid #AACDEA; color: #286CA4; background: #FFFFFF; }
+.container .inner .satir input:focus { border: 1px solid #AACDEA; color: #286CA4; background: #FFFFFF; }
+.container .inner .satir span { color: #DD3A04; font-size: 11px; padding-left: 6px; }
+.container .inner .sendfrm { padding-left: 150px; padding-bottom: 17px; } 
+
+.required { border: 1px solid #EF9D0C !important; color: #EB8723 !important; }
+
+
+.btn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+	background:-moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
+	background-color:#3d94f6;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #337fed;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px 16px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #1570cd;
+}.btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6) );
+	background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6');
+	background-color:#1e62d0; }
+.btn:active {
+	position:relative;
+	top:1px; }
+input,form {
+border:solid;
+border:thin;
+border-width:thin;
+}
