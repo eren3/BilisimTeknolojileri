@@ -1,4 +1,4 @@
 .config/
 .mplayer/
-uploads/
-upload/
+uploads/*
+upload/*
