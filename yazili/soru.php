@@ -89,7 +89,7 @@ include("../include/header.php"); ?>
   <br />
   </p>
 </form>
-<h3 class="kirmizi" ><div class="minput2" id="mesaj"></div></h3>
+<div class="etiket"></div>
 <p>
 </p>
 <?php include("../include/footer.php"); ?>

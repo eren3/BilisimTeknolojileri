@@ -1,5 +1,5 @@
 <?php 
-
+$js1="pencere.js";
 include("include/header.php"); ?>
 
 <div align="center" class="stil1">Bilişim Teknolojileri</div>
@@ -7,7 +7,7 @@ include("include/header.php"); ?>
   <tr>
     <td width="272" valign="top"><p><a href="ders/index.php">[  Bilişim Teknolojileri Dersi ]</a></p>
       <p><a href="panel">[ Öğrenci Paneli ]</a></p>
-      <p><a href="yazili">[ Yazılı Girişi ]</a></p>
+      <p><a href="javascript:penac('yazili');">[ Yazılı Girişi ]</a></p>
       <p>&nbsp;</p></td>
     <td width="414" rowspan="3">&nbsp;</td>
   </tr>

@@ -1,5 +1,5 @@
-<?php $renk = "#D2FFA6";
-$js1="pencere.js"; 
+<?php 
+$renk = "#D2FFA6";
 include("../include/header.php"); ?>
 <?php include("../include/db.php"); ?>
 <p>
@@ -49,7 +49,7 @@ $result = mysqli_query($con, "select * from tb_y_yazili where aktif = 1" );
 			$ID = $row["ID"];
 			$text = $row["text"];
 			
-			$result2 = mysqli_query($con, "select * from tb_y_cevap where ogno = ". $_POST["id"]. " and grup = ".$grup );
+			$result2 = mysqli_query($con, "select * from tb_y_cevap where ogno = ". $_POST["id"]. " and grup = ".$ID );
 			$rowcount=mysqli_num_rows($result2);
 									
 			echo "<div class= 'kutu'><h3>" .$baslik. "</h3>";
@@ -60,7 +60,7 @@ $result = mysqli_query($con, "select * from tb_y_yazili where aktif = 1" );
 				echo "Bu Yazılıya Giriş Yaptınız! Tekrar Giremezsiniz! </div><br/>";
 			} else {
 				?>
-		<a href="javascript:penac('soru.php?g=<?php echo $grup ?>&s=1'); window.location.href = 'index.php';">Yazılaya Başla &gt;</a></div><br/>
+		<a href="soru.php?g=<?php echo $ID ?>&s=1">Yazılaya Başla &gt;</a></div><br/>
 			<?php
             }
 					

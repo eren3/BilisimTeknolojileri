@@ -40,7 +40,7 @@ echo "| ". $_COOKIE["user"]. " | ".$_COOKIE["useri"] .  " | ".$_COOKIE["userii"]
 		echo "<br>"."<a href='ders.php?g=".$_GET["g"]."&s=".$sayfa."'>Okudum! Anladım! ...Sonraki Sayfaya geç ! >>> </a>";
 		} else {
 		echo "<b>Ders Bitti ! </b>"; 
-		echo "<a href='soru.php?g=2&s=1'>Burayı Tıkla ve Sorulara Başla </a>"; 
+		echo "<a href='soru.php?g=".$_GET["g"]."&s=1'>Burayı Tıkla ve Sorulara Başla </a>"; 
 		
 		}
 ?>

@@ -30,7 +30,7 @@ function tamam(s)
 var xmlhttp;
 if (s!="")
   {
-  document.getElementById("etiket2").innerHTML="<label><input type='submit' name='Tamam' id='Tamam' value='Tamam' class='btn'/></label>";
+  document.getElementById("etiket2").innerHTML="<label><input type='submit' name='Tamam' id='Tamam' value='Tamam' class='btn' /></label>";
   return;
   } else {
 	document.getElementById("etiket2").innerHTML="<div class='etiket'>Adınızı Seçiniz !</div>";  

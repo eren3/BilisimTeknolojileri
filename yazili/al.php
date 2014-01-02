@@ -15,7 +15,8 @@
                   echo '<option value="'.$id.'">'.$name.'</option>';
 				}
     echo "</select><br/><br/>";
-
+	
+	setcookie("e","e");
 ?>
 <div id="etiket2"><div class="etiket">Adınızı Seçiniz !</div></div>
 

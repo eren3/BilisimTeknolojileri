@@ -2,6 +2,7 @@
 $js1="pencere.js";
 include("../include/header.php"); ?>
 <?php include("../include/db.php"); ?>
+<a href="../index.php"><img src="../images/home.png" /> Anasayfa</a>
 <p>
   <?php
 // if ($_SERVER["REQUEST_METHOD"] == "POST") {  // Eğer POST varsa sayfaya...
@@ -60,7 +61,7 @@ $result = mysqli_query($con2, "select * from tb_ders WHERE sinif LIKE '%". $sini
 	
 
 ?>
-  <p>
+<p>
   <a href="javascript:penac('ders.php?g=<?php echo $ID; ?>&s=1')"><?php echo $baslik; ?></a>
   <br /> <?php echo $text; ?>
   <br /><br />
