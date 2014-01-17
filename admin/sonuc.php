@@ -83,7 +83,7 @@
 		$ii ++;
 	 	echo "<td>".$row3['ad']." ". $row3["no"] . "</td>";
 		$nno = $row3['no'];
-		$result = mysqli_query($con, "select * from tb_y_cevap WHERE (ogno =" .$nno." and grup = 2) "); //ORDER BY tarih DESC  LIMIT 20 soruID soruya en son verilen cevap. 
+		$result = mysqli_query($con, "select * from tb_y_cevap WHERE (ogno =" .$nno." and grup = 3) "); //ORDER BY tarih DESC  LIMIT 20 soruID soruya en son verilen cevap. 
 	   while ($row = mysqli_fetch_array($result)){
 	   		
   			$result2 = mysqli_query($con, "select * from tb_y_secenek WHERE (ID =". $row['secID'] .")");

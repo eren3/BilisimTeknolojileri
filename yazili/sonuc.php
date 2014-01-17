@@ -22,7 +22,7 @@
 			}// Cevaplar cookielerden Siliniyor SONU. 
 
 
- 			echo "<center><h3><br><br>SORULAR BİTTİ ! </h3><br><h3><a href = 'javascript:window.close();'>TIKLA PENCEERE KAPANSIN...!</a></h3></center>";
+ 			echo "<center><h3><br><br>SORULAR BİTTİ ! </h3><br><h3><a href = 'javascript:window.close();'>BURAYI TIKLA...!</a></h3></center>";
   
 ?>        
 <?php include("../include/footer.php"); ?>

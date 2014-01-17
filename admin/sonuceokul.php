@@ -40,7 +40,7 @@
   <input type="submit" name="t" id="t" value="Tamam" />
   </label>
 </form>
-<p class="stil1">+15 Puan Eklendi !!!
+<p class="stil1">+0 Puan Eklendi !!!
 <table width='412' border='1'>
   <tr bgcolor="#CCCCCC"bordercolorlight="#000000">
     <td width="295">Ad Soyad</td>
@@ -73,7 +73,7 @@
 		$ii ++;
 	 	echo "<td>".$row3['ad']." ". $row3["no"] . "</td>";
 		$nno = $row3['no'];
-		$result = mysqli_query($con, "select * from tb_y_cevap WHERE (ogno =" .$nno." and grup = 2) "); //ORDER BY tarih DESC  LIMIT 20 soruID soruya en son verilen cevap. 
+		$result = mysqli_query($con, "select * from tb_y_cevap WHERE (ogno =" .$nno." and grup = 3) "); //ORDER BY tarih DESC  LIMIT 20 soruID soruya en son verilen cevap. 
 	   while ($row = mysqli_fetch_array($result)){
 	   		
   			$result2 = mysqli_query($con, "select * from tb_y_secenek WHERE (ID =". $row['secID'] .")");
@@ -92,7 +92,7 @@
 			if ($toplam == 0){ $toplam = "<div class='stil1'>G</div>"; 
 									// sınava girmeyenlere G yazıyor.
 			} else {
-			$toplam += 15;
+			$toplam += 0;
 			if ($toplam > 100 ) {$toplam = 100;} // 100 den büyük puanlar 100 oluyor.
 							}
 					
